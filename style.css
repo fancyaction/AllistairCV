@@ -1,0 +1,94 @@
+::selection {
+    background: #5077F3;
+    color: white
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #5077F3
+}
+
+a:active,a:focus,a:visited {
+    color: #5077F3
+}
+
+a:hover {
+    transition: all 0.10s ease-in-out;
+    background-color: #FF5B8B;
+    color: white
+}
+
+#content a {
+    border-radius: .2rem;
+    padding: 0 .2rem;
+    margin: 0 -.2rem
+}
+
+#allistair h1, #allistair:hover h2{
+    transition: all 0.15s ease-in-out
+}
+
+#allistair:hover h1, #allistair:hover h2 {
+    color: #FFD632;
+    transform: translateX(-0.3rem)
+}
+
+.text {
+    color: #444D7C
+}
+
+.hello {
+    color: #001350
+}
+
+.header {
+    color: #5077F3
+}
+
+.emphasis {
+    color: #001350
+}
+
+.text-lite {
+    color: #848BAD
+}
+
+.solid-line {
+    border-bottom-style: solid;
+    border-bottom-width: .125rem;
+    border-color: #D9E0F0
+}
+
+.dashed-line {
+    border-bottom-style: dotted;
+    border-bottom-width: .125rem;
+    border-color: #D9E0F0
+}
+
+#cv {
+    max-width: 48rem
+}
+
+.rating-bg {
+    background-color: #E4E8F2;
+    margin-top: .7rem
+}
+
+.rating-four {
+    background-color: #78AE3D;
+    padding-top: .55rem;
+    padding-bottom: .55rem
+}
+
+.rating-three {
+    background-color: #FFD632;
+    padding-top: .55rem;
+    padding-bottom: .55rem
+}
+
+.rating-two {
+    background-color: #E74C3C;
+    padding-top: .55rem;
+    padding-bottom: .55rem
+}
