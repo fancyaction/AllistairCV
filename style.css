@@ -3,6 +3,10 @@
     color: white
 }
 
+img {
+    margin-top: 1.5rem;
+}
+
 a {
     font-weight: 600;
     text-decoration: none;
@@ -29,9 +33,14 @@ a:hover {
     transition: all 0.15s ease-in-out
 }
 
-#allistair:hover h1, #allistair:hover h2 {
+#allistair:hover h1 {
     color: #FFD632;
     transform: translateX(-0.3rem)
+}
+
+#allistair:hover h2 {
+    color: #78AE3D;
+    transform: translateX(0.3rem)
 }
 
 .text {
@@ -40,6 +49,18 @@ a:hover {
 
 .hello {
     color: #001350
+}
+
+.javascript {
+    color: #78AE3D;
+}
+
+.frontEnd {
+    color: #FFD632;
+}
+
+.other {
+    color: #E74C3C;
 }
 
 .header {
