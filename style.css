@@ -29,7 +29,7 @@ a:hover {
     margin: 0 -.2rem
 }
 
-#allistair h1, #allistair:hover h2{
+#allistair h1, #allistair h2{
     transition: all 0.15s ease-in-out
 }
 
