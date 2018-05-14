@@ -36,7 +36,7 @@ a:hover {
   transition: all 0.15s ease-in-out;
 }
 
-#allistair:hover h1 {
+#allistair:hover h1, .accordion:hover {
   color: #ffd632;
   transform: translateX(-0.3rem);
 }
@@ -120,11 +120,6 @@ a:hover {
 .accordion {
   cursor: pointer;
   transition: 0.4s;
-}
-
-.accordion:hover {
-  background-color: #ffd632;
-  border-radius: 5px 5px 0 0;
 }
 
 .accordion:after {
